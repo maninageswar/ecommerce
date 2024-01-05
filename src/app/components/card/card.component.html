@@ -1,6 +1,6 @@
 <div class="card" style="width: 18rem;" routerLink="/home/product/{{item.id}}">
   <img [src]="item.image" alt="..." width="250px" height="280px">
-  <div class="card-body">
+  <div class="card-body text-center">
     <h5 class="card-title">{{item.title.slice(0, 20)}}...</h5>
     <button *ngIf="!cart" class="btn btn-secondary">view product</button>
     <button *ngIf="cart" class="btn btn-danger" (click)="removeFromCart(item)">remove from cart</button>

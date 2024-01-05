@@ -1,0 +1,21 @@
+<nav class="navbar">
+  <div class="navElements">
+    <div class="first" [routerLink]="'home'">
+      <div class="logo">
+        <img src="../../../assets/app-store.png" alt="store logo" width="42px" height="42px">
+      </div>
+      <span>Store</span>
+      <div class="search">
+        <input type="text" placeholder="  search">
+      </div>
+    </div>
+    <div class="second">
+      <button [routerLink]="'kart'">
+      <img src="/assets/grocery-store.png" alt="cart logo" width="42px" height="42px">
+      </button>
+      <div class="cartCount"><strong>{{headerCartCount}}</strong></div>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

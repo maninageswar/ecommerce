@@ -1,0 +1,12 @@
+<div class="categories">
+  <ul class="categories_list">
+    <li><a (click)="Catogeryclick('products')" > <img  width="52px" height="52px" src="/assets/dairy-products.png" alt="">products </a> </li>
+    <li><a (click)="Catogeryclick('electronics')" > <img  width="52px" height="52px" src="/assets/gadgets.png" alt="">electronics </a> </li>
+    <li><a (click)="Catogeryclick('clothing')" > <img  width="52px" height="52px" src="/assets/dress.png" alt="">fashion </a> </li>
+    <li><a (click)="Catogeryclick('jewelery')" > <img  width="52px" height="52px" src="/assets/necklace.png" alt="">jewelery </a> </li>
+  </ul>
+</div>
+
+<div class="appProducts">
+  <app-products [Catagory]="sendcatagory" ></app-products>
+</div>

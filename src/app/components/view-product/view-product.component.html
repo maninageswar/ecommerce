@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="first">
+    <div class="imageBox"><img [src]="item.image" alt="..." width="450px" height="480px"></div>
+    <button class="btn btn-primary" (click)="addToCart(item)">add to cart</button>
+  </div>
+  <div class="contentBox">
+    <div class="mincards">
+      <h3>title</h3><hr>
+      <h4>{{item.title}}</h4>
+    </div>
+    <div class="mincards">
+      <h3>description</h3><hr>
+      <p>{{item.description}}</p>
+    </div>
+    <div class="mincards">
+      <h3>price</h3><hr>
+      <p>{{item.price}}</p>
+    </div>
+    <div class="mincards">
+      <h3>rating</h3><hr>
+      <p>{{item.rating.rate}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,72 @@
+.navbar{
+  background-color:#006cff;
+  height: 4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.navElements{
+  /*border: 1px solid;*/
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first span{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.first{
+  display: flex;
+  /*align-items: stretch;*/
+  align-items: center;
+  cursor: pointer;
+}
+
+.first .search input{
+  margin-left: 10px;
+  width: 30rem;
+  height: 33px;
+  border-radius: 10px;
+  border: none;
+}
+
+/*.second div{*/
+/*  width: 10px;*/
+/*  height: 10px;*/
+/*  background-color: red;*/
+/*}*/
+
+.second{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.cartCount{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.router{
+  background-color: palevioletred;
+}

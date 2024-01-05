@@ -1,0 +1,10 @@
+.grid{
+  /*border: 2px solid red;*/
+  margin-right: 7rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-columns: 350px 350px 350px 350px 350px;
+  column-gap: 10px;
+  row-gap: 25px;
+}

@@ -1,0 +1,9 @@
+<div class="cart">
+  <div class="grid" *ngIf="KartProducts.length;else other_content">
+    <ng-container *ngFor="let product of KartProducts">
+      <app-card [item]="product" [cart]="true"></app-card>
+    </ng-container>
+  </div>
+  <ng-template #other_content><div class="cartText">your cart is empty</div></ng-template>
+
+</div>

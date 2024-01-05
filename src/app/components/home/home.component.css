@@ -1,0 +1,25 @@
+.categories_list{
+  display: flex;
+  list-style: none;
+}
+.categories{
+  margin-top: 1rem;
+}
+
+.categories, .appProducts{
+  margin-left: 7rem;
+
+}
+.categories_list li a{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul{
+  padding: 0;
+}

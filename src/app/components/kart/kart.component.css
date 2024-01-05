@@ -1,0 +1,24 @@
+.cart{
+  margin-top: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  /*border: 2px solid red;*/
+  width: 90rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.grid{
+  /*border: 2px solid red;*/
+  margin-right: 7rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-columns: 350px 350px 350px 350px 350px;
+  column-gap: 10px;
+  row-gap: 25px;
+}
+
+.cartText{
+  font-size: 5rem;
+}
